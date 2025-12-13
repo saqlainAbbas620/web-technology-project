@@ -1,0 +1,9 @@
+.main-content {
+  /* margin-top: 120px; Adjust based on navbar height */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 80px;
+  }
+}
