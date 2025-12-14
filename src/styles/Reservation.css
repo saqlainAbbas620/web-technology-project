@@ -666,7 +666,7 @@
 /* Confirmation Step - Light Mode */
 .confirmationContent {
   text-align: center;
-  padding: 3rem;
+  /* padding: 3rem; */
 }
 
 .confirmationIcon {
@@ -721,6 +721,7 @@
 }
 
 .detailCard {
+  
   background: white;
   border: 2px solid rgba(184, 134, 11, 0.2);
   border-radius: 25px;
@@ -773,7 +774,7 @@
 }
 
 .confirmationActions button {
-  padding: 1rem 2.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 50px;
   font-size: 1rem;
   font-weight: 600;
@@ -816,6 +817,7 @@
   border-color: transparent;
   color: white;
   font-weight: 600;
+  margin: 0;
 }
 
 .menuButton:hover {
@@ -982,7 +984,7 @@
 /* ===== RESPONSIVE DESIGN - LIGHT MODE ===== */
 @media (max-width: 1024px) {
   .reservationHero {
-    height: 60vh;
+    height: auto;
     min-height: 500px;
   }
   
@@ -997,11 +999,14 @@
   .tableGrid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+  /* .detailsGrid{
+    grid-template-columns: auto;
+  } */
 }
 
 @media (max-width: 768px) {
   .reservationHero {
-    height: 50vh;
+    height: auto;
     min-height: 400px;
   }
   
@@ -1018,7 +1023,9 @@
     font-size: 0.8rem;
     letter-spacing: 3px;
   }
-  
+  /* .detailsGrid{
+    grid-template-columns: auto;
+  } */
   .progressSteps {
     gap: 0.5rem;
   }
@@ -1064,7 +1071,7 @@
 
 @media (max-width: 576px) {
   .reservationHero {
-    height: 45vh;
+    height:auto ; 
     min-height: 350px;
   }
   
@@ -1084,7 +1091,9 @@
     flex-direction: column;
     gap: 1.5rem;
   }
-  
+  .detailsGrid{
+    grid-template-columns: auto;
+  }
   .stepConnector {
     width: 2px;
     height: 30px;

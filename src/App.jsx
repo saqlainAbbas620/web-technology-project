@@ -7,7 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Reservation from './pages/Reservation';
 import Footer from './components/Footer';
-// import './App.css';
+
 
 function App() {
   return (
